@@ -19,7 +19,7 @@ using namespace std;
 typedef Matrix<float, 1, FEATURES_PER_DAY, RowMajor> Day;
 typedef Matrix<float, DAYS_TO_REMEMBER, FEATURES_PER_DAY, RowMajor> InputBuffer;
 typedef Matrix<float, DAYS_TO_REMEMBER, 1> ResultBuffer;
-typedef Matrix<float, 1, FEATURES_PER_INPUT, RowMajor> Input;
+typedef Input Matrix<float, 1, FEATURES_PER_INPUT, RowMajor> Input;
 Matrix<float, Dynamic, FEATURES_PER_INPUT + 1, RowMajor> trainingExamples;
 
 void readIn(FILE *inFile, Day &day) {
@@ -104,15 +104,18 @@ int main() {
 		Day sum = inBuf.colwise().sum();
 		Day sum2 = inBuf.cwiseProduct(inBuf).colwise().sum();
 		while(true) {
-			// Convert raw data into useful info
-			Input in = Input();
+			// Convert raw data to input
+			InputBuffer in = Input();
 			// Recover contiguous input from circular buffer
 			in << inBuf.block<Dynamic, FEATURES_PER_DAY>(bufIdx, 0, DAYS_TO_REMEMBER - bufIdx, FEATURES_PER_DAY);
 			in << inBuf.block<Dynamic, FEATURES_PER_DAY>(0, 0, bufIdx, FEATURES_PER_DAY);
 			// Feature normalization
 			Day mean = sum / DAYS_TO_REMEMBER;
 			Day stdDev = (sum2 * DAYS_TO_REMEMBER - sum.cwiseProduct(sum)).cwiseSqrt() / DAYS_TO_REMEMBER;
-			//in 
+			in.rowwise() -= mean;
+			in.rowwise() = in.rowwise().cwiseQuotient(stdDev);
+			// Flatten input
+			Input input(in);
 			// Add training example
 			// TODO
 			// Get next input

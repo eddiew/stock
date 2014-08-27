@@ -1,0 +1,1 @@
+neural.o: neural.cpp neural.hpp

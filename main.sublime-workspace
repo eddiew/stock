@@ -1,0 +1,307 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"def",
+				"defaultComp"
+			],
+			[
+				"en",
+				"end_ptr"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"selected_items":
+		[
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Add Repository"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"isnstall",
+				"Git: Reset (unstage) All"
+			],
+			[
+				"Package Control: list",
+				"Package Control: List Packages"
+			],
+			[
+				"add repo",
+				"Package Control: Add Repository"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"add rep",
+				"Package Control: Add Repository"
+			],
+			[
+				"add re",
+				"Package Control: Add Repository"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"glue",
+				"Glue - Launch"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"sidebar",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 536.0
+	},
+	"console":
+	{
+		"height": 269.0,
+		"history":
+		[
+			"dpi-scale",
+			"5+5",
+			"5=5",
+			"exit",
+			"ls",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/eddiew/.config/sublime-text-3/Packages/User/clang++.sublime-build",
+		"/home/eddiew/Prog/stock",
+		"/home/eddiew/.config/sublime-text-3/Packages/spacegray/Spacegray.sublime-theme",
+		"/home/eddiew/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/eddiew/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/eddiew/Prog/spacegray/Spacegray.sublime-theme",
+		"/home/eddiew/Prog/spacegray/base16-ocean.dark.tmTheme",
+		"/home/eddiew/Prog/spacegray/messages/1.2.1.txt",
+		"/home/eddiew/.config/sublime-text-3/Packages/User/Terminal.sublime-settings",
+		"/home/eddiew/.config/sublime-text-3/Packages/Terminal/Terminal.sublime-settings",
+		"/home/eddiew/.config/sublime-text-3/Packages/GitGutter/GitGutter.sublime-settings",
+		"/home/eddiew/.config/sublime-text-3/Packages/BracketHighlighter/bh_core.sublime-settings",
+		"/etc/X11/xorg.conf.d/50-synaptics.conf",
+		"/home/eddiew/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/eddiew/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/home/eddiew/Prog/eddiew.github.io/src/content/css/all.css",
+		"/etc/X11/xorg.conf.d/10-monitor.conf",
+		"/media/eddiew/LRS_ESP/Version.txt",
+		"/home/eddiew/.conkyrc",
+		"/home/eddiew/Downloads/Rings/rings-v1.2.lua",
+		"/etc/sensors.conf",
+		"/home/eddiew/.inputrc",
+		"/home/eddiew/.bashrc",
+		"/usr/share/X11/xorg.conf.d/50-synaptics.conf",
+		"/home/eddiew/Downloads/android-studio/sdk/platforms/android-20/skins/NOTICE.txt",
+		"/home/eddiew/Prog/eddiew.github.io/src/content/css/main.scss",
+		"/home/eddiew/Prog/eddiew.github.io/src/content/index.haml",
+		"/usr/lib/systemd/system-sleep/sreenoff.sh",
+		"/home/eddiew/Downloads/linked-list-eddie-wang.cpp",
+		"/etc/X11xorg.conf.d/50-synaptics.conf",
+		"/etc/X11/xorg.conf.d",
+		"/home/eddiew/Downloads/ll.cpp",
+		"/home/eddiew/Downloads/whatsapp.cpp",
+		"/usr/share/applications/firefox.desktop"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"height",
+			"10",
+			"xxlarge",
+			".png",
+			"xxlarge",
+			"tooltip",
+			"xlarge",
+			"sidebar_tree",
+			"xxlarge",
+			"label_control",
+			"width",
+			"height",
+			"size",
+			"_ptr",
+			"MergeInPlace",
+			"current",
+			"a_ptr",
+			"mergeSort",
+			"delete",
+			"T",
+			"<T>"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"@2x.png",
+			"",
+			"Merge",
+			"tail",
+			"a",
+			"MergeSort",
+			"int",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 43.0
+	},
+	"input":
+	{
+		"height": 185.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "main.sublime-project",
+	"replace":
+	{
+		"height": 82.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 290.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
